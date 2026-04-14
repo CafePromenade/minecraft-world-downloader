@@ -1,0 +1,5 @@
+game\data\chunk\ChunkTest.class
+game\data\chunk\palette\PaletteTransformerTest.class
+game\protocol\ProtocolVersionHandlerTest.class
+game\data\CircleGeneratorTest.class
+packets\builder\PacketBuilderAndParserTest.class
