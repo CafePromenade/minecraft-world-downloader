@@ -183,9 +183,8 @@ public class WorldManager {
         this.regions = new ConcurrentHashMap<>();
     }
 
-    private void checkAboveSurface() {
+   private void checkAboveSurface() {
         Coordinate3D discrete = this.playerPosition.discretize();
-
         Coordinate3D local = discrete.globalToChunkLocal();
 
         if (dimension == Dimension.NETHER) {
@@ -195,6 +194,10 @@ public class WorldManager {
 
         Chunk c = getChunk(discrete.globalToChunk());
         if (c == null) {
+            return;
+        }
+
+        if (c.getChunkHeightHandler() == null) {
             return;
         }
 

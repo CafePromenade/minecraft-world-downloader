@@ -537,26 +537,31 @@ public abstract class Chunk extends ChunkEntities {
      * @param provider network input
      */
     public void updateBlocks(Coordinate3D pos, DataTypeProvider provider) {
-        int count = provider.readVarInt();
-        Collection<Coordinate3D> toUpdate = new ArrayList<>();
-        while (count-- > 0) {
-            byte xz = provider.readNext();
-            int y = provider.readNext();
-            int x = (xz >>> 4) & 0x0F;
-            int z = xz & 0x0F;
+    int count = provider.readVarInt();
+    Collection<Coordinate3D> toUpdate = new ArrayList<>();
+    while (count-- > 0) {
+        byte xz = provider.readNext();
+        int y = provider.readNext();
+        int x = (xz >>> 4) & 0x0F;
+        int z = xz & 0x0F;
 
-            int blockId = provider.readVarInt();
+        int blockId = provider.readVarInt();
 
-            Coordinate3D blockPos = new Coordinate3D(x, y, z);
-            toUpdate.add(blockPos);
+        Coordinate3D blockPos = new Coordinate3D(x, y, z);
+        toUpdate.add(blockPos);
 
-            updateBlock(blockPos, blockId, true);
-        }
-        boolean wasChanged = this.chunkHeightHandler.recomputeHeights(toUpdate);
-        if (wasChanged) {
-            imageFactory.generateImages();
-        }
+        updateBlock(blockPos, blockId, true);
     }
+
+    if (this.chunkHeightHandler == null) {
+        return;
+    }
+
+    boolean wasChanged = this.chunkHeightHandler.recomputeHeights(toUpdate);
+    if (wasChanged && imageFactory != null) {
+        imageFactory.generateImages();
+    }
+}
 
     public void updateLight(DataTypeProvider provider) {
         raiseEvent("update lighting");
