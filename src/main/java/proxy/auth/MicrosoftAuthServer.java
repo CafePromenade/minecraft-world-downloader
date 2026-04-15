@@ -54,8 +54,11 @@ public class MicrosoftAuthServer extends NanoHTTPD {
         if (!session.getUri().equals(PATH)) {
             return null;
         }
-       if (authCodeHandler != null) {
+        if (authCodeHandler != null) {
             String code = session.getParms().get("code");
+            if (code == null || code.isBlank()) {
+                return newFixedLengthResponse(Response.Status.BAD_REQUEST, MIME_PLAINTEXT, "Missing auth code");
+        }
             int port = this.getListeningPort();
 
             if (code != null && !code.isBlank()) {
