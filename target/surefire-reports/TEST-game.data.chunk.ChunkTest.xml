@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="game.data.chunk.ChunkTest" time="23.392" tests="27" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="game.data.chunk.ChunkTest" time="23.378" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\cntow\AppData\Local\Temp\surefire4055295155941345836\surefirebooter7895369665464793868.jar C:\Users\cntow\AppData\Local\Temp\surefire4055295155941345836 2026-04-15T16-03-06_751-jvmRun1 surefire4515730433505605835tmp surefire_04030429952878451595tmp"/>
+    <property name="sun.java.command" value="C:\Users\cntow\AppData\Local\Temp\surefire12683107553514759000\surefirebooter9885289347231990514.jar C:\Users\cntow\AppData\Local\Temp\surefire12683107553514759000 2026-04-15T16-08-20_462-jvmRun1 surefire939041066983852877tmp surefire_013179917008119993114tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cntow\Documents\GitHub\minecraft-world-downloader\target\test-classes;C:\Users\cntow\Documents\GitHub\minecraft-world-downloader\target\classes;C:\Users\cntow\.m2\repository\org\nanohttpd\nanohttpd\2.3.1\nanohttpd-2.3.1.jar;C:\Users\cntow\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\cntow\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\cntow\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\cntow\.m2\repository\com\konghq\unirest-java\3.13.8\unirest-java-3.13.8.jar;C:\Users\cntow\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cntow\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cntow\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cntow\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cntow\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cntow\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.4.13\httpcore-nio-4.4.13.jar;C:\Users\cntow\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.1.5\httpasyncclient-4.1.5.jar;C:\Users\cntow\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cntow\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\cntow\.m2\repository\com\github\llbit\jo-nbt\1baae2f49a\jo-nbt-1baae2f49a.jar;C:\Users\cntow\.m2\repository\args4j\args4j\2.33\args4j-2.33.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-fxml\18.0.1\javafx-fxml-18.0.1.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-fxml\18.0.1\javafx-fxml-18.0.1-win.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-swing\18.0.1\javafx-swing-18.0.1.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-swing\18.0.1\javafx-swing-18.0.1-win.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1.jar;C:\Users\cntow\.m2\repository\dnsjava\dnsjava\3.6.0\dnsjava-3.6.0.jar;C:\Users\cntow\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\cntow\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\cntow\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\cntow\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cntow\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\cntow\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cntow\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\cntow\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\cntow\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\cntow\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\cntow\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\cntow\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\cntow\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-controls\18.0.1\javafx-controls-18.0.1.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-controls\18.0.1\javafx-controls-18.0.1-win.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1-win.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-base\18.0.1\javafx-base-18.0.1.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-base\18.0.1\javafx-base-18.0.1-win.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1-linux.jar;C:\Users\cntow\.m2\repository\org\openjfx\javafx-graphics\11\javafx-graphics-11-mac.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cntow\AppData\Local\Temp\surefire4055295155941345836\surefirebooter7895369665464793868.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cntow\AppData\Local\Temp\surefire12683107553514759000\surefirebooter9885289347231990514.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+36-3489"/>
@@ -59,31 +59,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="floatTest" classname="game.data.chunk.ChunkTest" time="0.035"/>
+  <testcase name="floatTest" classname="game.data.chunk.ChunkTest" time="0.037"/>
   <testcase name="byteArray" classname="game.data.chunk.ChunkTest" time="0.001"/>
   <testcase name="longTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
   <testcase name="shortTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
-  <testcase name="nbtCompoundTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="nbtCompoundTest" classname="game.data.chunk.ChunkTest" time="0.002"/>
   <testcase name="shortNegativeTest" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="stringTest" classname="game.data.chunk.ChunkTest" time="0.002"/>
-  <testcase name="varIntNegative" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="stringTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="varIntNegative" classname="game.data.chunk.ChunkTest" time="0"/>
   <testcase name="varIntBig" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="varInt" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="nbtListTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="varInt" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="nbtListTest" classname="game.data.chunk.ChunkTest" time="0"/>
   <testcase name="parseCoordinatesOther" classname="game.data.chunk.ChunkTest" time="0.001"/>
-  <testcase name="parseBit" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="parseCoordinates" classname="game.data.chunk.ChunkTest" time="0.001"/>
-  <testcase name="uuidTest" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="intTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
-  <testcase name="boolTrue" classname="game.data.chunk.ChunkTest" time="0"/>
-  <testcase name="boolFalse" classname="game.data.chunk.ChunkTest" time="0.002"/>
-  <testcase name="chunk_1_12" classname="game.data.chunk.ChunkTest" time="2.301"/>
-  <testcase name="chunk_1_13" classname="game.data.chunk.ChunkTest" time="1.406"/>
-  <testcase name="chunk_1_14" classname="game.data.chunk.ChunkTest" time="1.361"/>
-  <testcase name="chunk_1_15" classname="game.data.chunk.ChunkTest" time="0.897"/>
-  <testcase name="chunk_1_16" classname="game.data.chunk.ChunkTest" time="1.14"/>
-  <testcase name="chunk_1_17" classname="game.data.chunk.ChunkTest" time="1.145"/>
-  <testcase name="chunk_1_19" classname="game.data.chunk.ChunkTest" time="5.856"/>
-  <testcase name="chunk_1_21" classname="game.data.chunk.ChunkTest" time="5.893"/>
-  <testcase name="chunk_1_16_light" classname="game.data.chunk.ChunkTest" time="3.336"/>
+  <testcase name="parseBit" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="parseCoordinates" classname="game.data.chunk.ChunkTest" time="0"/>
+  <testcase name="uuidTest" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="intTest" classname="game.data.chunk.ChunkTest" time="0"/>
+  <testcase name="boolTrue" classname="game.data.chunk.ChunkTest" time="0.001"/>
+  <testcase name="boolFalse" classname="game.data.chunk.ChunkTest" time="0"/>
+  <testcase name="chunk_1_12" classname="game.data.chunk.ChunkTest" time="2.327"/>
+  <testcase name="chunk_1_13" classname="game.data.chunk.ChunkTest" time="1.405"/>
+  <testcase name="chunk_1_14" classname="game.data.chunk.ChunkTest" time="1.351"/>
+  <testcase name="chunk_1_15" classname="game.data.chunk.ChunkTest" time="0.888"/>
+  <testcase name="chunk_1_16" classname="game.data.chunk.ChunkTest" time="1.104"/>
+  <testcase name="chunk_1_17" classname="game.data.chunk.ChunkTest" time="1.158"/>
+  <testcase name="chunk_1_19" classname="game.data.chunk.ChunkTest" time="5.883"/>
+  <testcase name="chunk_1_21" classname="game.data.chunk.ChunkTest" time="5.829"/>
+  <testcase name="chunk_1_16_light" classname="game.data.chunk.ChunkTest" time="3.376"/>
 </testsuite>

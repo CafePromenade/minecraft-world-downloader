@@ -77,13 +77,10 @@ public class MicrosoftAuthHandler {
     }
 
     private boolean expiresSoon(LocalDateTime expiration) {
-        if (expiration == null || expiration.equals(LocalDateTime.MIN)) {
-            return true;
-        }
-
-        LocalDateTime now = LocalDateTime.now();
-        return !expiration.isAfter(now.plusMinutes(5));
-    }
+    return expiration == null
+        || expiration.equals(LocalDateTime.MIN)
+        || !expiration.isAfter(LocalDateTime.now().plusMinutes(5));
+}
 
 
     public static MicrosoftAuthHandler fromCode(String authCode, int usedPort) {
